@@ -80,7 +80,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 100px 0;
+  padding: 120px 0;
 }
 
 .action-wrapper {
@@ -190,7 +190,7 @@ body {
 /* Reviews Grid Section */
 .reviews-section {
   padding: 100px 0;
-  padding-top: 0;
+  padding-top: 80px;
   text-align: center;
 }
 
@@ -391,4 +391,57 @@ body {
   margin-top: 10px;
   border: none;
   cursor: pointer;
+}
+
+/* Footer Section */
+.footer-section {
+  background-color: white; /* Matches the background of other sections */
+  padding: 100px 0; /* Consistent vertical padding */
+  text-align: center; /* Center align all content within the footer */
+}
+
+.footer-wrapper {
+  max-width: 1280px; /* Match other wrappers */
+  margin: 0 auto; /* Center the wrapper */
+  padding: 0 20px; /* Horizontal padding */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center items horizontally */
+  gap: 30px; /* Space between elements */
+}
+
+.footer-wrapper .logo {
+  font-size: 100px; /* Larger logo size as per image */
+  margin-bottom: 10px; /* Space between logo and tagline */
+}
+
+.footer-tagline {
+  font-family: "Raleway", sans-serif; /* Raleway font for tagline */
+  font-size: 20px;
+  color: #5a5c6c; /* Color from the image */
+  max-width: 700px; /* Limit width for readability */
+  line-height: 1.5;
+  margin: 0 auto; /* Center the tagline */
+  margin-bottom: 20px; /* Space before navigation */
+}
+
+.footer-nav {
+  display: flex;
+  gap: 30px; /* Space between navigation links */
+  flex-wrap: wrap; /* Allow links to wrap on smaller screens */
+  justify-content: center; /* Center links if they wrap */
+}
+
+.footer-nav a {
+  font-family: "Inter", sans-serif; /* Inter font for navigation links */
+  font-size: 20px;
+  font-weight: 600;
+  color: #5a5c6c; /* Dark text color for links */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+  color: #5a4ff3; /* Hover color for links */
 }
