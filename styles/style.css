@@ -395,53 +395,53 @@ body {
 
 /* Footer Section */
 .footer-section {
-  background-color: white; /* Matches the background of other sections */
-  padding: 100px 0; /* Consistent vertical padding */
-  text-align: center; /* Center align all content within the footer */
+  background-color: white;
+  padding: 100px 0;
+  text-align: center;
 }
 
 .footer-wrapper {
-  max-width: 1280px; /* Match other wrappers */
-  margin: 0 auto; /* Center the wrapper */
-  padding: 0 20px; /* Horizontal padding */
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
   box-sizing: border-box;
   display: flex;
-  flex-direction: column; /* Stack elements vertically */
-  align-items: center; /* Center items horizontally */
-  gap: 30px; /* Space between elements */
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
 }
 
 .footer-wrapper .logo {
-  font-size: 100px; /* Larger logo size as per image */
-  margin-bottom: 10px; /* Space between logo and tagline */
+  font-size: 100px;
+  margin-bottom: 10px;
 }
 
 .footer-tagline {
-  font-family: "Raleway", sans-serif; /* Raleway font for tagline */
+  font-family: "Raleway", sans-serif;
   font-size: 20px;
-  color: #5a5c6c; /* Color from the image */
-  max-width: 700px; /* Limit width for readability */
+  color: #5a5c6c;
+  max-width: 700px;
   line-height: 1.5;
-  margin: 0 auto; /* Center the tagline */
-  margin-bottom: 20px; /* Space before navigation */
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .footer-nav {
   display: flex;
-  gap: 30px; /* Space between navigation links */
-  flex-wrap: wrap; /* Allow links to wrap on smaller screens */
-  justify-content: center; /* Center links if they wrap */
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .footer-nav a {
-  font-family: "Inter", sans-serif; /* Inter font for navigation links */
+  font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 600;
-  color: #5a5c6c; /* Dark text color for links */
-  text-decoration: none; /* Remove underline */
+  color: #5a5c6c;
+  text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .footer-nav a:hover {
-  color: #5a4ff3; /* Hover color for links */
+  color: #5a4ff3;
 }
